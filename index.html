@@ -1,0 +1,91 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Video Catalog</title> -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css"> <!-- https://fontawesome.com/ -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <!-- https://fonts.google.com/ -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/templatemo-video-catalog.css">
+
+</head>
+<body>
+	<div class="tm-page-wrap mx-auto">
+		<div class="position-relative">
+			<div class="potition-absolute tm-site-header">
+				<div class="container-fluid position-relative">
+					<div class="row">
+                        <div class="col-7 col-md-4">
+                        </div>
+                        <div class="col-50 col-md-50 ml-auto mr-0">
+                            <div class="tm-site-nav">
+                                <nav class="navbar navbar-expand-lg mr-0 ml-auto" id="tm-main-nav">
+                                    <button class="navbar-toggler tm-bg-black py-2 px-3 mr-0 ml-auto collapsed" type="button"
+                                        data-toggle="collapse" data-target="#navbar-nav" aria-controls="navbar-nav"
+                                        aria-expanded="false" aria-label="Toggle navigation">
+                                        <span>
+                                            <i class="fas fa-bars tm-menu-closed-icon"></i>
+                                            <i class="fas fa-times tm-menu-opened-icon"></i>
+                                        </span>
+                                    </button>
+                                    <div class="collapse navbar-collapse tm-nav" id="navbar-nav">
+                                        <ul class="navbar-nav text-uppercase">
+                                            <li class="nav-item active">
+                                                <a class="nav-link tm-nav-link" href="index.html"><font size="+3">Introduction <span class="sr-only">(current)</span></a></font>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link tm-nav-link" href="Video.html"><font size="+3">Video Gallery</a></font>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link tm-nav-link" href="Figures.html"><font size="+3">Figures</a></font>
+                                            </li>
+																						<li class="nav-item">
+                                                <a class="nav-link tm-nav-link" href="Contact.html"><font size="+3">Contact Us</a></font>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+					</div>
+				</div>
+			</div>
+			<div class="tm-welcome-container tm-fixed-header tm-fixed-header-2">
+				<div class="text-center">
+					<p class="tm-welcome-text mb-1 text-white"><font size="+4">Computational Modeling and Analysis of the morphogenetic domain </p>
+					<p class="tm-welcome-text mb-1 text-white"><font size="+4"> signalling networks regulating <em>C. elegans </em> embryogenesis.</font></p>
+				</div>
+            </div>
+
+            <div id="tm-fixed-header-bg"></div> <!-- Header image -->
+		</div>
+
+		<!-- Page content -->
+		<main>
+			<div class="container-fluid px-0">
+				<div class="mx-auto tm-content-container">
+					<div class="row mt-3 mb-5 pb-3">
+						<div class="col-12">
+							<div class="mx-auto tm-about-text-container px-3">
+								<h2 class="tm-page-title mb-4 tm-text-primary">About this study</h2>
+								<p class="mb-4"><font size="+2"><em>Caenorhabditis elegans</em>, often referred to as the ‘roundworm’, provides a powerful model for studying cell autonomous and cell-cell interactions through the direct observation of embryonic development in vivo. By leveraging the precisely mapped cell lineage at single cell resolution, we are able to study at a systems level how early embryonic cells communicate across morphogenetic domains for the coordinated processes of gene expressions and collective cellular behaviors that regulate tissue morphogenesis. In this study, we developed a computational framework for the exploration of the morphogenetic domain cell signaling networks that may regulate C. elegans gastrulation and embryonic organogenesis. We demonstrated its utility by producing the following results, i) established a virtual reference model of developing C. elegans embryos through the spatiotemporal alignment of individual embryo cell nuclear imaging samples; ii) integrated the single cell spatiotemporal gene expression profile with the established virtual embryo model by data pooling; iii) trained a Machine Learning model (Random Forest Regression), which predicts accurately the spatial positions of the cells given their gene expression profiles for a given developmental time (e.g. total cell number of the embryo); iv) enabled virtual 4-dimensional tomographic graphical modeling of single cell data; v) inferred the biology signaling pathways that act in each of morphogenetic domains by meta-data analysis. It is intriguing that the morphogenetic domain cell signaling network seems to involve some crosstalk of multiple biology signaling pathways during the formation of tissue boundary pattern.</font></p>
+								<p class="mb-4"><font size="+2">Lastly, we developed the Software tool ‘Embryo aligner version 1.0’ and provided it as an Open Source program to the research community for virtual embryo modeling, and phenotype perturbation analyses. The tool is available as <a href="https://github.com/csniuben/embryo_aligner/wiki" class="tm-text-primary">Embryo aligner</a></font>.</p>
+			</div>
+		</main>
+                    <footer class="row pt-5">
+                       <div class="col-12">
+                            <p class="text-center"><font size ="+1">Michael Zhang Computational Biology Lab - University of Texas at Dallas</font>
+                            </p>
+                       </div>
+                   </footer>
+		<div class="container-fluid tm-content-container mx-auto pt-5">
+		</div>
+	</div>
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+</body>
+</html>
